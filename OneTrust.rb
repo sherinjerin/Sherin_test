@@ -1,5 +1,5 @@
 
- Given(/^I navigate to "([^"]*)"$/)do |url|
+ Given(/^I navigate to the "([^"]*)"$/)do |url|
   Capybara.app_host = url
   visit('/')
  end 
